@@ -1,0 +1,68 @@
+        body{
+            background-image: url("rm183-wan-11.jpg");
+            background-repeat: no-repeat;
+            background-size: 2000px 1000px;
+        }
+        h1{
+            color: blanchedalmond;
+            text-align: center;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .container{
+            justify-content: center;
+            text-align: center;
+        }
+        #newtask{
+            justify-content: center;
+            display: flex;
+        }
+        .intext{
+            border-radius: 25px;
+            height: 50px;
+            width: 450px;
+            border: 20px solid bisque;
+            background-color: rgb(70, 70, 70);
+            margin-top: 20px;
+            color: white;
+            font-size: x-large;
+        }
+        ::placeholder {
+            color: rgb(182, 182, 182);
+            font-size: x-large;
+        }
+        #push{
+            border-radius: 50px;
+            height: 70px;
+            width: 70px;
+            margin-left: 10px;
+            border: 10px solid bisque;
+            background-color: rgb(70, 70, 70);
+            font-size: xx-large;
+            color: rgb(219, 218, 218);
+            margin-top: 30px;
+        }
+        .task{
+            justify-content: center;
+            display: flex;
+        }
+        .taskname{
+            border-radius: 20px;
+            height: 50px;
+            width: 350px;
+            border: 20px solid bisque;
+            background-color: rgb(70, 70, 70);
+            color: white;
+            margin-top: 20px;
+            font-size: xx-large;
+        }
+        .delete{
+            border-radius: 50px;
+            height: 70px;
+            width: 70px;
+            margin-left: 10px;
+            border: 10px solid bisque;
+            background-color: rgb(70, 70, 70);
+            font-size: xx-large;
+            color: rgb(219, 218, 218);
+            margin-top: 30px;
+        }
